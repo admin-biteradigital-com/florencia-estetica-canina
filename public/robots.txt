@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://florencia-estetica-canina.pages.dev/sitemap.xml
