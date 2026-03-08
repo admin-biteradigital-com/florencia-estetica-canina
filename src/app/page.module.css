@@ -164,14 +164,12 @@
 
 .imagePlaceholder {
   width: 100%;
-  aspect-ratio: 1;
   background-color: var(--light);
   border-radius: calc(var(--radius-lg) - 0.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
   color: #999;
   font-weight: 600;
 }
