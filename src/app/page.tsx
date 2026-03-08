@@ -143,7 +143,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div className="container">
-          <p>© {new Date().getFullYear()} Florencia Papasso - Estética Canina. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Florencia Papasso &amp; Bitera Digital. Todos los derechos reservados.</p>
         </div>
       </footer>
     </main>
