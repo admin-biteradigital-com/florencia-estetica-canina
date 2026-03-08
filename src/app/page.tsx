@@ -93,7 +93,7 @@ export default function Home() {
             {[1, 2, 3, 4, 5].map((num) => (
               <div key={num} className={`${styles.galleryItem} card`}>
                 <div className={styles.imagePlaceholder}>
-                  <Image src={`/images/dog${num}.webp`} alt={`Corte canino ${num}`} width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} />
+                  <Image src={`/images/dog${num}.webp`} alt={`Corte canino ${num}`} width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                 </div>
               </div>
             ))}
