@@ -38,9 +38,7 @@ export default function Home() {
             <div className={styles.blob}></div>
             {/* Note: User must provide a photo of themselves or a main dog photo here */}
             <div className={`${styles.heroImageWrapper} glass`}>
-              <div style={{ width: '100%', height: '100%', backgroundColor: 'var(--secondary)', borderRadius: 'var(--radius-lg)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', position: 'relative' }}>
-                <Image src="/hero.png" alt="Florencia Estética Canina" fill style={{ objectFit: 'cover' }} />
-              </div>
+              <Image src="/hero.webp" alt="Florencia Estética Canina" fill style={{ objectFit: 'cover' }} priority />
             </div>
           </div>
         </div>
@@ -95,7 +93,7 @@ export default function Home() {
             {[1, 2, 3, 4, 5].map((num) => (
               <div key={num} className={`${styles.galleryItem} card`}>
                 <div className={styles.imagePlaceholder}>
-                  <Image src={`/images/dog${num}.jpeg`} alt={`Corte canino ${num}`} width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} />
+                  <Image src={`/images/dog${num}.webp`} alt={`Corte canino ${num}`} width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} />
                 </div>
               </div>
             ))}
