@@ -1,7 +1,7 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Paw Print Outline -->
-    <g id="paw" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="paw" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M0,15 C-15,15 -20,0 -20,-10 C-20,-20 -10,-25 0,-20 C10,-25 20,-20 20,-10 C20,0 15,15 0,15 Z" />
       <path d="M-25,-20 C-35,-20 -35,-35 -25,-35 C-15,-35 -15,-20 -25,-20 Z" />
       <path d="M-10,-35 C-20,-35 -20,-50 -10,-50 C0,-50 0,-35 -10,-35 Z" />
@@ -10,7 +10,7 @@
     </g>
 
     <!-- Cat Nose & Whiskers Outline -->
-    <g id="cat" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="cat" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <!-- Heart-ish nose -->
       <path d="M0,0 Q-10,-10 -20,0 Q-10,10 0,20 Q10,10 20,0 Q10,-10 0,0 Z" />
       <!-- Mouth -->
@@ -28,30 +28,30 @@
     </g>
 
     <!-- Bone Outline -->
-    <g id="bone" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="bone" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M -20,-10 L 20,-10 C 35,-10 35,-30 45,-20 C 55,-10 55,10 45,20 C 35,30 35,10 20,10 L -20,10 C -35,10 -35,30 -45,20 C -55,10 -55,-10 -45,-20 C -35,-30 -35,-10 -20,-10 Z" />
     </g>
 
     <!-- Yarn Outline -->
-    <g id="yarn" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="yarn" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <circle cx="0" cy="0" r="25" />
       <path d="M-15,-15 Q0,-25 15,-10 T10,20 T-20,10 T-15,-15" />
       <path d="M-10,23 L-25,35 Q-35,40 -30,50 Q-25,60 -40,55" />
     </g>
 
     <!-- Fish Shape Outline -->
-    <g id="fish" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="fish" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M30,0 C10,25 -20,15 -25,0 C-20,-15 10,-25 30,0 Z" />
       <path d="M-25,0 L-40,-15 L-40,15 Z" />
       <ellipse cx="10" cy="-3" rx="2" ry="2" />
     </g>
   </defs>
 
-  <!-- Pattern Placements with CSS Colors (--primary, --secondary, --accent equivalents at 50% opacity) -->
-  <use href="#paw" transform="translate(80, 80) rotate(-15) scale(1.1)" color="rgba(147, 228, 193, 0.6)" />
-  <use href="#cat" transform="translate(320, 100) scale(0.9)" color="rgba(255, 123, 84, 0.6)" />
-  <use href="#bone" transform="translate(120, 320) rotate(-25) scale(1.2)" color="rgba(255, 213, 111, 0.6)" />
-  <use href="#yarn" transform="translate(300, 300) rotate(15)" color="rgba(147, 228, 193, 0.6)" />
-  <use href="#fish" transform="translate(60, 220) rotate(35) scale(0.9)" color="rgba(255, 123, 84, 0.6)" />
-  <use href="#paw" transform="translate(240, 220) rotate(30) scale(0.7)" color="rgba(255, 213, 111, 0.6)" />
+  <!-- Pattern Placements with hardcoded strokes instead of color attribute -->
+  <use href="#paw" transform="translate(80, 80) rotate(-15) scale(1.1)" stroke="rgba(147, 228, 193, 0.6)" />
+  <use href="#cat" transform="translate(320, 100) scale(0.9)" stroke="rgba(255, 123, 84, 0.6)" />
+  <use href="#bone" transform="translate(120, 320) rotate(-25) scale(1.2)" stroke="rgba(255, 213, 111, 0.6)" />
+  <use href="#yarn" transform="translate(300, 300) rotate(15)" stroke="rgba(147, 228, 193, 0.6)" />
+  <use href="#fish" transform="translate(60, 220) rotate(35) scale(0.9)" stroke="rgba(255, 123, 84, 0.6)" />
+  <use href="#paw" transform="translate(240, 220) rotate(30) scale(0.7)" stroke="rgba(255, 213, 111, 0.6)" />
 </svg>

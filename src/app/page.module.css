@@ -145,7 +145,7 @@
 /* Portfolio Section */
 .portfolio {
   background-color: var(--light);
-  background-image: url('/pet-pattern.svg');
+  background-image: url('/pet-pattern.svg?v=2');
   background-repeat: repeat;
   background-size: 300px;
   background-position: center;
@@ -181,7 +181,7 @@
 
 /* Contact Section */
 .contact {
-  background-image: url('/pet-pattern.svg');
+  background-image: url('/pet-pattern.svg?v=2');
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #fff9f6;
